@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CA-FE-DEV-Test Jessica Yip</title>
+    <link
+      href="components/style.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h2>Carousel</h2>
+    <div class="carousel-main-container">
+      <div class="carousel-image">
+        <img src="components/img-1.jpeg" alt="mountain mists" class="slide" />
+      </div>
+      <div class="carousel-image">
+        <img
+          src="components/img-2.jpeg"
+          alt="morning mountain forest"
+          class="slide"
+        />
+      </div>
+      <div class="carousel-image">
+        <img src="components/img-3.jpeg" alt="forest sunset" class="slide" />
+      </div>
+      <div class="carousel-nav-container">
+        <button class="carousel-nav" onclick="currentImage(1)"></button>
+        <button class="carousel-nav" onclick="currentImage(2)"></button>
+        <button class="carousel-nav" onclick="currentImage(3)"></button>
+      </div>
+    </div>
+    <h2>Cards</h2>
+    <div class="cards-main-container">
+      <div class="card-container">
+        <img src="components/img-1.jpeg" class="card-image" />
+        <div class="card-text-container">
+          <h4 class="card-title">Card Title</h4>
+          <p class="card-text">
+            Who said cats and dogs don't get along! Look at the bond this pair has. 
+            Dogs and cats can get along, it takes time and patience like most obstacles in life. 
+            This goes without the need of an explanation but generally it is easier for a 
+            puppy and kitten to bond rather than two adults.
+          </p>
+          <a href="#">
+            <button class="card-button">Button</button>
+          </a>
+        </div>
+      </div>
+      <div class="card-container">
+        <img src="components/img-2.jpeg" class="card-image" />
+        <div class="card-text-container">
+          <h4 class="card-title">Card Title</h4>
+          <p class="card-text">
+            This image is a Bichon, a small dog breed. They are hypoallergenic, 
+            normally white in color with curly texture fur. The best part is that 
+            they are playful, affectionate, smart, and gentle with others, a great pet to have with kids around. 
+          </p>
+          <a href="#">
+            <button class="card-button">Button</button>
+          </a>
+        </div>
+      </div>
+      <div class="card-container">
+        <img src="components/img-3.jpeg" class="card-image" />
+        <div class="card-text-container">
+          <h4 class="card-title">Card Title</h4>
+          <p class="card-text">
+            Tabby cats are a known breed, most with short hair. They have stripes by its eyes
+             and across its cheek, along its back all they way to their tail. They are considered 
+             to be friendly, intelligent, affectionate but can also be sassy and sometimes want to be alone.
+          </p>
+          <a href="#">
+            <button class="card-button">Button</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="components/main.js"></script>
+  </body>
+</html>
